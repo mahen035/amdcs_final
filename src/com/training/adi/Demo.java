@@ -3,7 +3,7 @@ package com.training.adi;
 public class Demo {
 
 	public static void main(String[] args) {
-		int t = 10;
+		int t = 100;
 		increment(t);
 		System.out.println(t);
 		
