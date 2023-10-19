@@ -3,7 +3,12 @@ package com.training.adi;
 public class Demo {
 
 	public static void main(String[] args) {
-		int t = 100;
+		
+		Bank bankObj = BankFactory.getBank("SBI");
+		bankObj.getInterestRate();
+		
+	}
+		/*int t = 100;
 		increment(t);
 		System.out.println(t);
 		
@@ -19,5 +24,5 @@ public class Demo {
 	static void updateEmp(Employee emp) {
 		emp.setDeptName("IT");
 	}
-
+*/
 }
